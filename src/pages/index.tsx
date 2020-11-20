@@ -17,7 +17,9 @@ export default function Home() {
             <li><Link href="#"><a>Sobre Nós</a></Link></li>
             <li><Link href="#"><a>Produtos</a></Link></li>
             <li><Link href="#"><a>Parceiros</a></Link></li>
-            <li><Link href="#"><a>Fale Conosco</a></Link></li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=552197017-5164&text=Ol%C3%A1,%20estou%20interessado%20em%20um%20dos%20seus%20produtos..." target="_blank">Fale Conosco</a>
+            </li>
           </ul>
         </Menu>
 
@@ -103,7 +105,7 @@ export default function Home() {
 
       <Footer>
         <div className="btn-consult">
-        <span><a href="#">Fale com nossos consultores</a></span>
+        <span><a href="https://api.whatsapp.com/send?phone=552197017-5164&text=Ol%C3%A1,%20estou%20interessado%20em%20um%20dos%20seus%20produtos..." target="_blank">Fale com nossos consultores</a></span>
         </div>
 
         <Menu>
@@ -123,7 +125,9 @@ export default function Home() {
           <p>&copy; Todos os Direitos Reservados</p>
           <div className="developer">
             <span>Desenvolvido por</span>
-            <Image src="/images/logo-w.svg" width={10} height={10} />
+            <a href="https://whfdev.com.br" target="_blank">
+              <Image src="/images/whfdev.svg" width={100} height={30} />
+            </a>
           </div>
         </div>
       </Footer>

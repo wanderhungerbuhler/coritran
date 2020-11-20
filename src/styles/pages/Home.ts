@@ -61,6 +61,10 @@ export const Footer = styled.footer`
     font-size: .8em;
 
     .developer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
       span { color: #ccc; font-size: 1em; }
     }
   }

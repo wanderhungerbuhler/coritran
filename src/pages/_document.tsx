@@ -63,8 +63,8 @@ export default class MyDocument extends Document {
 
           <meta name="twitter:title" content={pageTitle} />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@rocketseat" />
-          <meta name="twitter:creator" content="@rocketseat" />
+          <meta name="twitter:site" content="@coritran" />
+          <meta name="twitter:creator" content="@coritran" />
           <meta name="twitter:image" content={pageImage} />
           <meta name="twitter:image:src" content={pageImage} />
           <meta name="twitter:image:alt" content="Thumbnail" />

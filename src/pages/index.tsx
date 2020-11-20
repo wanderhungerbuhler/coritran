@@ -14,9 +14,9 @@ export default function Home() {
             height={70}
           />
           <ul>
-            <li><Link href="#"><a>Sobre Nós</a></Link></li>
+            <li><Link href="#aboutus"><a>Sobre Nós</a></Link></li>
             <li><Link href="#"><a>Produtos</a></Link></li>
-            <li><Link href="#"><a>Parceiros</a></Link></li>
+            <li><Link href="#partners"><a>Parceiros</a></Link></li>
             <li>
               <a href="https://api.whatsapp.com/send?phone=552197017-5164&text=Ol%C3%A1,%20estou%20interessado%20em%20um%20dos%20seus%20produtos..." target="_blank">Fale Conosco</a>
             </li>
@@ -54,7 +54,7 @@ export default function Home() {
 
           <div className="line-separator"></div>
 
-          <div className="content-vision">
+          <div className="content-vision" id="aboutus">
             <div className="content-vision-description">
               <h1>Nós construímos sua <b>VISÃO</b></h1>
               <p>
@@ -77,7 +77,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="content-partner">
+          <div className="content-partner" id="partners">
             <div className="content-partner-description">
               <h1>Parceiros</h1>
               <p>

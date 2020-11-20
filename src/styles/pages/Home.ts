@@ -92,7 +92,7 @@ export const Container = styled.div`
 export const Menu = styled.div`
   height: 70px;
   display: flex;
-  justify-content: space-space-between;
+  justify-content: space-between;
   align-items: center;
 
   ul {

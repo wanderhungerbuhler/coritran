@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
   render() {
     const pageTitle = "Coritran - Comércio e Serviços";
     const description = "A Coritran conta com uma equipe multidisciplinar, qualificada para oferecer o serviço com eficácia e eficiência."
-    const pageImage = "/images/logo-web.png"
+    const pageImage = "https://coritran.com.br/images/logo-web.png"
 
     return (
       <Html>
